@@ -138,12 +138,21 @@ figure{
     body {
         background-color: var(--white);
     }
+    main,
+    body  {
+        padding: 0;
+        margin: 0;
+    }
     .omelette-recipe {
         padding: 0;
         border-radius: 0;
     }
+    figure {
+        border-radius: 0;
+    }
     .omelette-image {
         border-radius: 0;
+        object-fit: cover;
     }
     .nutrient-value-table {
         max-width: 100%;
