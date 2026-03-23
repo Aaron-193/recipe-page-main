@@ -71,6 +71,8 @@ figure{
 .accent-text {
     color: var(--rose-800);
     font-weight: 600;
+    font-size: 1.25rem;
+    margin-left: 1rem;
 }
 .preparation-list {
     margin: 0 auto;
@@ -119,6 +121,12 @@ figure{
 .nutrient-value-table tbody tr:last-child {
     border-bottom: none;
 }
+.nutrient-value-table th {
+    padding: 1rem;
+    color: var(--stone-600);
+    font-weight: 400;
+}
+
 .nutrient-value-table td {
     padding: 1rem;
 }
@@ -138,7 +146,7 @@ figure{
         border-radius: 0;
     }
     .nutrient-value-table {
-        width: 100%;
-        margin-inline: 0;
+        max-width: 100%;
+        margin-inline: auto;
     }
 }
