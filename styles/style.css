@@ -82,7 +82,7 @@ figure{
 }
 .recipe-sub-title {
     color: var(--brown-800);
-    font-size: clamp(1.25, 4vw, 1.5rem);
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
 }
 
 .preparation-list .preparation, 
